@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build-a-Product-Landing-Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <img style="width: 15%" id="header-img" src="https://img.icons8.com/ios-filled/50/000000/shop.png" alt="logo"/> Shop Online</a>
+        <nav class="navbar" id="nav-bar">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#products">Product</a>
+            <a class="nav-link" href="#video">Review</a>
+        </nav>
+
+        <div class="icons">
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-user"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <!--======= Home Section ============-->
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span> Nike Red Shoes</span>
+                    <h3> Nike metcon Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas excepturi modi harum, quod molestiae quasi eos ipsa voluptatem fugit cumque natus at ullam enim quia quidem, unde illum animi non?</p>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-shoe-1.png" alt="" class="shoe">
+                    <img src="images/home-text-1.png" alt="" class="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span> Nike Blue Shoes</span>
+                    <h3> Nike metcon Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas excepturi modi harum, quod molestiae quasi eos ipsa voluptatem fugit cumque natus at ullam enim quia quidem, unde illum animi non?</p>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-shoe-2.png" alt="" class="shoe">
+                    <img src="images/home-text-2.png" alt="" class="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span> Nike Yellow Shoes</span>
+                    <h3> Nike metcon Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas excepturi modi harum, quod molestiae quasi eos ipsa voluptatem fugit cumque natus at ullam enim quia quidem, unde illum animi non?</p>
+                    <a href="#" class="btn"> Add to cart</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-shoe-3.png" alt="" class="shoe">
+                    <img src="images/home-text-3.png" alt="" class="text">
+                </div>
+            </div>
+        </div>
+
+        <div id="prev" class="fas fa-chevron-left" onclick = "prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onlick = "next()"></div>
+    </section>
+
+    <!--============= Product Section ===============-->
+    <section class="products" id="products">
+        <h1 class="heading"> latest <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-1.png" alt="">
+                <div class="content">
+                    <h3> nike Shoes</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn"> Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-2.png" alt="">
+                <div class="content">
+                    <h3> nike Shoes</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn"> Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-3.png" alt="">
+                <div class="content">
+                    <h3> nike Shoes</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn"> Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-4.png" alt="">
+                <div class="content">
+                    <h3> nike Shoes</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn"> Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-5.png" alt="">
+                <div class="content">
+                    <h3> nike Shoes</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn"> Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-6.png" alt="">
+                <div class="content">
+                    <h3> nike Shoes</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--============ Review Section ==========-->
+    <section class="video">
+        <h1 class="heading"> Review <span>products</span></h1>
+        <iframe id ="video" width="auto" height="315" src="https://www.youtube.com/embed/s1dRMZ61J8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- =========== Newsletter Section ===========-->
+    <section class="newsletter">
+        <div class="content">
+            <h3> Monthly Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, cumque? Odio sint nobis dicta, harum, maiores expedita cupiditate praesentium ex necessitatibus laborum placeat odit sunt, explicabo quaerat quidem quia. Provident.</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input id="email" name="email" type="email" placeholder="enter your email" class="box">
+                <input id="submit" type="submit" value="send" class="box">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="credit">Created by <span> Antntt 91 </span> | all rights reserved</div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
