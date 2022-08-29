@@ -317,6 +317,9 @@ header .icons a:hover{
     color: var(--orange);
 }
 
+.video{
+    text-align: center;
+}
 .newsletter{
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -355,7 +358,7 @@ header .icons a:hover{
     color: #333;
     padding: 1rem;
     border: .2rem solid var(--black);
-    border-right: none;
+  
     margin-top: 1rem;
 }
 
@@ -442,5 +445,8 @@ header .icons a:hover{
 
     .heading{
         font-size: 3rem;
+    }
+    .video iframe{
+        width: 100%;
     }
 }
