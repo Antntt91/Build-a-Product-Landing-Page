@@ -3,6 +3,7 @@
     --black: #2c2c54;
     --orange: #ff9f1a;
 }
+
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0; padding: 0;
@@ -53,9 +54,10 @@ section{
     background: var(--orange);
     color: #fff;
 }
+
 header{
     position: fixed;
-    top:0; left:0;
+    top:0; left:0; right:0;
     z-index: 1000;
     background: #fff;
     padding: 2rem 9%;
@@ -92,10 +94,12 @@ header .icons a:hover{
 #menu-bar{
     font-size: 2.5rem;
     padding: .5rem 1.5rem;
-    color: var(--black);
+    border:.1rem solid var(--black);
+    color:var(--black);
+    border-radius: .3rem;
     cursor: pointer;
-    display: none ; 
-}
+    display: none;
+  }
 
 .home{
     padding: 0;
@@ -153,7 +157,7 @@ header .icons a:hover{
 @keyframes shoeText{
     0%{
         opacity: 0;
-        top: -10rem
+        top: -10rem;
     }
 }
 
